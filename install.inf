@@ -1,0 +1,5 @@
+[info]
+title=JavaScriptLint
+desc=Linter for CudaLint, adds support for JavaScript lexer, uses "JavaScript Lint"
+type=cudatext-plugin
+subdir=cuda_lint_jslint
