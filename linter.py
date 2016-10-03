@@ -1,20 +1,12 @@
-#
-# linter.py
-# Linter for SublimeLinter3, a code checking framework for Sublime Text 3
-#
 # Written by Aparajita Fishman
 # Copyright (c) 2013 Aparajita Fishman
-#
 # License: MIT
-#
+# Change for CudaLint: Alexey T.
 
-"""This module exports the JSL plugin linter class."""
-
-from SublimeLinter.lint import Linter, util
+from cuda_lint import Linter, util
 
 
 class JSL(Linter):
-
     """Provides an interface to the jsl executable."""
 
     syntax = 'JavaScript'
